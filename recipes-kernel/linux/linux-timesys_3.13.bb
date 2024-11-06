@@ -5,7 +5,7 @@ require recipes-kernel/linux/linux-imx.inc
 SUMMARY = "Linux Kernel with added drivers and board support for Vybrid-based platforms"
 
 # Revision of 3.13_vybrid branch
-SRC_URI = "git://github.com/Timesys/linux-timesys.git;protocol=git;branch=${SRCBRANCH} \
+SRC_URI = "git://github.com/Timesys/linux-timesys.git;protocol=https;branch=${SRCBRANCH} \
            file://defconfig \
            file://0001-arm-dts-vf610-phycore-rdk.dts-rename-to-vf610-pcm052.patch \
 "

@@ -16,7 +16,7 @@ SRCBRANCH = "v2017.03/maint"
 SRCREV = "8d60f536d2063ac6a0676bdf34c4c8c8807371c5"
 
 SRC_URI = "\
-    git://github.com/digi-embedded/u-boot.git;protocol=git;nobranch=1 \
+    git://github.com/digi-embedded/u-boot.git;protocol=https;nobranch=1 \
     file://bootscript.txt \
 "
 
