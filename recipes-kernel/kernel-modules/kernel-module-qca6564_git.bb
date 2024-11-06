@@ -11,7 +11,7 @@ SRCBRANCH = "qca6564/master"
 SRCREV = "fef49841fd1b4f3fee3b2193f9927c09d59df7de"
 
 SRC_URI = "\
-    git://github.com/digi-embedded/qcacld-2.0.git;protocol=git;branch=${SRCBRANCH} \
+    git://github.com/digi-embedded/qcacld-2.0.git;protocol=https;branch=${SRCBRANCH} \
     file://modprobe-qca6564.conf \
 "
 

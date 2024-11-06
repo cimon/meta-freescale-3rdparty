@@ -6,7 +6,7 @@ PV = "v2018.07+git${SRCPV}"
 
 SRCREV = "b75d1f64ef30120fbdfbf37f82af237422f4fabd"
 SRCBRANCH = "boundary-v2018.07"
-SRC_URI = "git://github.com/boundarydevices/u-boot-imx6.git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/boundarydevices/u-boot-imx6.git;branch=${SRCBRANCH};protocol=https"
 
 S = "${WORKDIR}/git"
 

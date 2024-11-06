@@ -5,7 +5,7 @@ require recipes-kernel/linux/linux-imx.inc
 
 SUMMARY = "Linux kernel for Boundary Devices boards"
 
-SRC_URI = "git://github.com/boundarydevices/linux-imx6.git;branch=${SRCBRANCH} \
+SRC_URI = "git://github.com/boundarydevices/linux-imx6.git;branch=${SRCBRANCH};protocol=https \
 "
 
 LOCALVERSION = "-2.0.0-ga+yocto"

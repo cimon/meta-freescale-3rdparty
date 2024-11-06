@@ -13,7 +13,7 @@ SRCREV = "3b5f889cb501c9fbe44c750c657dcd9ea4875176"
 SRCBRANCH = "imx_v2017.03_4.9.11_1.0.0_ga_var01"
 
 SRC_URI = "\
-    git://github.com/varigit/uboot-imx.git;protocol=git;branch=${SRCBRANCH} \
+    git://github.com/varigit/uboot-imx.git;protocol=https;branch=${SRCBRANCH} \
 "
 
 S = "${WORKDIR}/git"

@@ -8,7 +8,7 @@ PROVIDES += "u-boot"
 
 SRCBRANCH = "utilite/master"
 SRCREV = "6803a75f3d40bee3b53f56e7b49c70465819b7ca"
-SRC_URI = "git://github.com/utilite-computer/u-boot.git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/utilite-computer/u-boot.git;branch=${SRCBRANCH};protocol=https"
 SRC_URI[md5sum] = "fd8234c5b3a460430689848c1f16acef"
 
 S = "${WORKDIR}/git"
